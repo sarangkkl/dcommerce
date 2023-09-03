@@ -45,3 +45,18 @@ nav input{
       width:295px;
       border-radius: 14px;
 }
+nav.navbar{
+      background-color: black;
+      text-align: center;
+      color: aliceblue;
+      width:22;
+      border: 1px solid;
+      font-size: 14px;
+      padding: 18px 12px;
+      height: 22px;
+      display: inline-block;
+      margin-right: 15%;
+}
+nav.navbar.p{
+      text-align: center;
+}

@@ -1,7 +1,47 @@
 *{
       margin: 0;
       padding: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
 }
 nav{
-      background: blueviolet;
+      background: white;
+      height: 80px;
+      width:100%;
+}
+label.logo{
+      color: rgb(18, 13, 13);
+      font-size: 35px;
+      line-height: 80px;
+      padding: 0 100px;
+      font-weight: bold;
+}
+nav ul{
+      float: right;
+      margin-right: 15%;
+}
+nav ul li{
+      display:inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+}
+nav ul li a{
+      color:rgb(18, 13, 13);
+      font-size: 18px;
+}
+body{
+      background-color: rgb(244, 231, 231);
+}
+input{
+      float:center;
+      color:black;
+      background-color: rgb(244, 231, 231);
+      padding:44px;
+}
+nav input{
+      padding: 12px 17px;
+      border:2px solid black;
+      width:295px;
+      border-radius: 14px;
 }
